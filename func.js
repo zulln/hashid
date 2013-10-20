@@ -1,8 +1,9 @@
 function isalpha(hash){
 	if(hash.search(/[^A-Za-z\s]/) != -1){
 		return false;
+	} else {
+		return true;
 	}
-	return true;
 }
 
 function islower(hash){
@@ -17,6 +18,14 @@ function isalnum(hash){
 	var exp = /^([0-9]|[a-z])+([0-9a-z]+)$/i;
 
 	if(!hash.match(exp)){
+		return false;
+	} else {
+		return true;
+	}
+}
+
+function justhex(hash){
+	if(hash.search(/[G-Zg-z]/) != -1){
 		return false;
 	} else {
 		return true;
