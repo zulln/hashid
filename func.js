@@ -1,15 +1,6 @@
-//string.lengh		= len(string)
-//arr.push(string)	= arr.append(string)
-
-//!isNaN(string)	= string.isdigit()
-//isalpha(string)	= string.isalpha()
-
-//islower(string)	= string.islower()
-//isalnum(string)	= string.isalnum()  alfanumerico
-
 function isalpha(hash){
 	if(hash.search(/[^A-Za-z\s]/) != -1){
-		return false; //if something else than letters
+		return false;
 	}
 	return true;
 }
