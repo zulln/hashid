@@ -45,3 +45,14 @@ function simplerange(stop){
 function clear(){
 	document.getElementById('inputHash').value = '';
 }
+
+function loaded(){
+	if(location.hash){
+		inputHash = location.hash.substring(1);
+		document.getElementById("inputHash").value = inputHash;
+		start();
+	} else {
+		var input = document.getElementById("inputHash");
+		input.value = '';
+	}
+}
