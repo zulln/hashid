@@ -1,0 +1,48 @@
+body{
+	background-color: #EBE4DA;
+}
+
+#holder {
+	text-align: center;
+}
+
+h1 {
+	font-size: 100px;
+	margin-bottom: 0px;
+	color: #1D1D1D;
+	font-family: 'Coda Caption', sans-serif;
+}
+
+#content {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+
+	/*border-radius: 5px;
+	*/
+		border-radius: 5px;
+	width: 1100px;
+	background-color: #1D1D1D;
+}
+
+#inputHash {
+	text-align: center;
+	border: none;
+	outline: none;
+	width: 1000px;
+	font-size: 50px;
+	margin-top: 25px;
+	background-color: #EBE4DA;
+	color: transparent;
+    text-shadow: 0px 0px 0px #1D1D1D;
+}
+
+#result {
+	margin-bottom: 25px;
+	color: #EBE4DA;
+}
+
+a {
+	color: #1D1D1D;
+	text-decoration: none;
+}
