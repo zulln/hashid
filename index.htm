@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<noscript>
+			<h1>Really? Using the web without javascript?</h1>
+		</noscript>
+		<input id="inputHash" type="text"><br>
+		<input type="submit" onclick="start();">
+		<br><br>
+		<div id="result">
+	
+		<script>
+			function start(){
+				window.hash = document.getElementById('inputHash').value;
+				checker();
+			}
+		</script>
+
+		<script src="func.js"></script>
+		<script src="check.js"></script>
+		<script src="algo.js"></script>
+	</body>
+</html>
