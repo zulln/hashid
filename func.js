@@ -32,3 +32,7 @@ function simplerange(stop){
 	}
 	return arr;
 }
+
+function clear(){
+	document.getElementById('inputHash').value = '';
+}

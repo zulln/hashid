@@ -17,10 +17,7 @@ h1 {
 	margin-top: 0px;
 	margin-right: auto;
 	margin-left: auto;
-
-	/*border-radius: 5px;
-	*/
-		border-radius: 5px;
+	border-radius: 5px;
 	width: 1100px;
 	background-color: #1D1D1D;
 }
@@ -31,7 +28,8 @@ h1 {
 	outline: none;
 	width: 1000px;
 	font-size: 50px;
-	margin-top: 25px;
+	margin-top: 40px;
+	margin-bottom: 25px;
 	background-color: #EBE4DA;
 	color: transparent;
     text-shadow: 0px 0px 0px #1D1D1D;
@@ -40,6 +38,7 @@ h1 {
 #result {
 	margin-bottom: 25px;
 	color: #EBE4DA;
+	font-size: 25px;
 }
 
 a {
