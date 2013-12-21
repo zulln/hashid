@@ -657,3 +657,10 @@ function WhirlpoolHMAC() {
         possible.push("122080")
     }
 }
+
+function bcrypt() {
+    hs='$2a$08$K6VxzdqNiPZjM32CdmGZV.4FXCL20c0t26ejN8VL2PI.dygzWSrEOK6VxzdqNiPZjM32CdmGZVE';
+    if (hash.length == hs.length) {
+        possible.push("1");
+    }
+}
