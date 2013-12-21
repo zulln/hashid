@@ -24,6 +24,14 @@ function isalnum(hash){
 	}
 }
 
+function isint(hash){
+	if (hash = int(hash)) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
 function justhex(hash){
 	if(hash.search(/[G-Zg-z]/) != -1){
 		return false;

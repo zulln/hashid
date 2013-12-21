@@ -660,15 +660,7 @@ function WhirlpoolHMAC() {
 
 function bcrypt() {
     hs='$2a$08$K6VxzdqNiPZjM32CdmGZV.4FXCL20c0t26ejN8VL2PI.dygzWSrEOK6VxzdqNiPZjM32CdmGZVE';
-    if (hash.substring(0, 4) == '$2a$') {
+    if (hash.substring(0, 4) == '$2a$' && isint(hash.substring(4,6)) && hash.substring(6,7) == '$') {
         possible.push("1");
     }
-}
-
-function SHA1Django() {
-    hs='sha1$Zion3R$299c3d65a0dcab1fc38421783d64d0ecf4113448';
-    if (hash.length==hs.length && !isNaN(hash)==false && isalpha(hash)==false && isalnum(hash)==false && hash.substring(0, 5) == 'sha1$' && justhex(hash.substring(hash.length-40, 52))==true){
-        possible.push("113020");
-    }
-
 }
