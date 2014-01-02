@@ -48,7 +48,7 @@ function GHash325() {
 }
 function DESUnix() {
     hs='ZiY8YtDKXJwYQ';
-    if (hash.length==hs.length && !isNaN(hash)==false && isalpha(hash)==false && justCharDig(hash)) {
+    if (hash.length==hs.length && !isNaN(hash)==false && isalpha(hash)==false) {
         possible.push("104020");}
 
 }
