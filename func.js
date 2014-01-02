@@ -14,6 +14,10 @@ function islower(hash){
 	}
 }
 
+function justCharDig(hash){
+	return !/[^a-z0-9\-]/ig.test(hash);
+}
+
 function isalnum(hash){
 	var exp = /^([0-9]|[a-z])+([0-9a-z]+)$/i;
 
